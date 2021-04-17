@@ -8,7 +8,7 @@ It uses Electron but my eyes dont care.
 
 ## Download Binaries
 
-<img src="./app/icon.png" alt="Nuit logo" width="70"/>
+<a href="https://github.com/oupadhyay/Nuit/releases/tag/v2.0"><img src="./app/icon.png" alt="Nuit logo" width="70"/></a>
 
 - [MacOS Binary](https://github.com/oupadhyay/Nuit/releases/tag/v2.0)
 
