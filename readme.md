@@ -1,4 +1,4 @@
-# Nord NightPDF
+# Nuit (Nord NightPDF)
 
 Dark Mode PDF reader with edited default settings to better match the Nord Theme aesthetic.
 
