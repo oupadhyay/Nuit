@@ -6,11 +6,10 @@ It uses Electron but my eyes dont care.
 
 ![NightPDF screencast](docs/nuit-720.gif?raw=true)
 
-## Download Binaries
+## Download Binaries 
+Click on logo.
 
 <a href="https://github.com/oupadhyay/Nuit/releases/tag/v2.0"><img src="./app/icon.png" alt="Nuit logo" width="70"/></a>
-
-- [MacOS Binary](https://github.com/oupadhyay/Nuit/releases/tag/v2.0)
 
 ## Development
 
