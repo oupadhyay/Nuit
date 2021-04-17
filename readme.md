@@ -1,6 +1,6 @@
 # Nuit (Nord NightPDF)
 
-Dark Mode PDF reader with edited default settings to better match the Nord Theme aesthetic.
+Nord Dark Mode PDF reader with edited default settings for MacOS.
 
 It uses Electron but my eyes dont care.
 
@@ -10,8 +10,7 @@ It uses Electron but my eyes dont care.
 
 <img src="./app/icon.png" alt="Nuit logo" width="70"/>
 
-
-- [Binaries Coming Soon!](#)
+- [MacOS Binary](https://github.com/oupadhyay/Nuit/releases/tag/v2.0)
 
 ## Development
 
