@@ -10,9 +10,7 @@ It uses Electron but my eyes dont care.
 
 ![NightPDF logo](docs/nightpdf_small.png?raw=true)
 
-Binaries for Mac OS X and Windows
-
-- [Latest release](https://github.com/joeloya/NightPDF/releases/latest)
+- [Binaries Coming Soon!](#)
 
 ## Development
 
