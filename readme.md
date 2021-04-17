@@ -4,7 +4,7 @@ Nord Dark Mode PDF reader with edited default settings for MacOS.
 
 It uses Electron but my eyes dont care.
 
-![NightPDF screencast](docs/nightpdf.gif?raw=true)
+![NightPDF screencast](docs/nuit-720.gif?raw=true)
 
 ## Download Binaries
 
