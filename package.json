@@ -1,0 +1,75 @@
+{
+	"name": "NightPDF",
+	"version": "0.2.3",
+	"description": "Dark Mode for PDFs",
+	"main": "app.js",
+	"scripts": {
+		"start": "electron .",
+		"dist": "electron-builder"
+	},
+	"author": {
+		"name": "Ojasw U.",
+		"email": "ojaswupadhyay@gmail.com"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^10.4.3",
+		"electron-builder": "^22.9.1",
+		"electron-notarize": "^1.0.0",
+		"electron-packager": "^15.2.0"
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"nouislider": "^14.6.2",
+		"open": "^7.3.0"
+	},
+	"build": {
+		"appId": "io.elesoft.NightPDF",
+		"productName": "NightPDF",
+		"afterSign": "build/notarize.js",
+		"fileAssociations": [
+			{
+				"ext": "pdf",
+				"icon": "build/icon.icns",
+				"role": "viewer",
+				"isPackage": false
+			}
+		],
+		"linux": {
+			"icon": "build/icon.icoset/icon_256x256.png",
+			"desktop": {
+				"Name": "NightPdf",
+				"Comment": "Dark Mode PDF reader"
+			},
+			"target": [
+				"AppImage",
+				"deb",
+				"rpm",
+				"tar.gz",
+				"snap"
+			],
+			"category": "Utilty"
+		},
+		"win": {
+			"target": [
+				"portable"
+			],
+			"icon": "build/icon.ico"
+		},
+		"mac": {
+			"icon": "build/icon.iconset",
+			"category": "public.app-category.productivity",
+			"target": [
+				"dmg",
+				"zip"
+			],
+			"bundleVersion": "1",
+			"artifactName": "NightPDF-${version}.${ext}",
+			"darkModeSupport": true,
+			"hardenedRuntime": true,
+			"gatekeeperAssess": false,
+			"provisioningProfile": "./build/nightpdf.provisionprofile",
+			"type": "distribution"
+		}
+	}
+}
