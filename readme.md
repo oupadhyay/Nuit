@@ -8,7 +8,8 @@ It uses Electron but my eyes dont care.
 
 ## Download Binaries
 
-![NightPDF logo](docs/nightpdf_small.png?raw=true)
+<img src="./app/icon.png" alt="Nuit logo" width="70"/>
+
 
 - [Binaries Coming Soon!](#)
 
